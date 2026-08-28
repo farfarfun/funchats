@@ -1,4 +1,4 @@
-# notechats
+# funchats
 nothing
 
 
