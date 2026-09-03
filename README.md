@@ -8,6 +8,16 @@
 pip install funchats
 ```
 
+## 用法
+
+当前版本仅用于占位，除了可被正常导入外没有其他公开功能：
+
+```python
+import funchats
+
+print(funchats.__name__)  # funchats
+```
+
 ---
 
 ## 关于 farfarfun
