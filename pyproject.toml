@@ -1,7 +1,7 @@
 [project]
 name = "funchats"
 version = "0.0.2"
-description = "funchats"
+description = "保留 funchats PyPI 包名的可导入占位包"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -28,6 +28,7 @@ email = "farfarfun@qq.com"
 Organization = "https://github.com/farfarfun"
 Repository = "https://github.com/farfarfun/funchats"
 Releases = "https://github.com/farfarfun/funchats/releases"
+PyPI = "https://pypi.org/project/funchats/"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
