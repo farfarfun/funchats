@@ -18,6 +18,14 @@ import funchats
 print(funchats.__name__)  # funchats
 ```
 
+## 开发
+
+```bash
+uv sync --dev
+uv run ruff check --fix . && uv run ruff format .
+uv run pytest
+```
+
 ---
 
 ## 关于 farfarfun

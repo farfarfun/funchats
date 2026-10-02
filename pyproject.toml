@@ -37,4 +37,7 @@ build-backend = "hatchling.build"
 packages = ["src/funchats"]
 
 [dependency-groups]
-dev = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "ruff>=0.12.0"]
+
+[tool.ruff]
+target-version = "py310"
