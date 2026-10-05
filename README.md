@@ -2,11 +2,32 @@
 
 占位仓库，尚无实际功能代码。发布这个空壳版本只是为了在 PyPI 上保留 `funchats` 这个包名，避免被无关项目抢注；具体功能会在之后陆续补充。
 
-## Install
+## 环境要求
+
+- Python 3.10 或更高版本
+
+## 安装
+
+```bash
+uv add funchats
+```
+
+或使用 pip：
 
 ```bash
 pip install funchats
 ```
+
+> PyPI 上当前已发布的最新版本是 `0.0.2`，仓库里的 `0.0.3` 尚未发布。
+> 两者都是没有功能代码的占位包，行为完全一致；`0.0.3` 只调整了打包结构
+> （`src/` 布局、随包附带 `py.typed`、补全元信息），会在下次发版时生效。
+> 需要仓库里的最新打包结构时，可从源码安装：
+>
+> ```bash
+> git clone https://github.com/farfarfun/funchats.git
+> cd funchats
+> uv pip install .
+> ```
 
 ## 用法
 
