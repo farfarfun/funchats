@@ -1,6 +1,8 @@
 # funchats
 
-占位仓库，尚无实际功能代码。发布这个空壳版本只是为了在 PyPI 上保留 `funchats` 这个包名，避免被无关项目抢注；具体功能会在之后陆续补充。
+> **已归档**：本包不再继续开发。大模型调用请改用 [funai](https://github.com/farfarfun/funai)。
+
+`funchats` 是一个可导入的空占位包，仅用于持有 PyPI 上的 `funchats` 包名、避免被无关项目抢注，不提供任何功能代码。
 
 ## 环境要求
 
@@ -18,26 +20,17 @@ uv add funchats
 pip install funchats
 ```
 
-> PyPI 上当前已发布的最新版本是 `0.0.2`，仓库里的 `0.0.3` 尚未发布。
-> 两者都是没有功能代码的占位包，行为完全一致；`0.0.3` 只调整了打包结构
-> （`src/` 布局、随包附带 `py.typed`、补全元信息），会在下次发版时生效。
-> 需要仓库里的最新打包结构时，可从源码安装：
->
-> ```bash
-> git clone https://github.com/farfarfun/funchats.git
-> cd funchats
-> uv pip install .
-> ```
-
 ## 用法
 
-当前版本仅用于占位，除了可被正常导入外没有其他公开功能：
+包内没有任何公开 API，除了可被正常导入外没有其他行为：
 
 ```python
 import funchats
 
 print(funchats.__name__)  # funchats
 ```
+
+需要大模型统一调用（DeepSeek、Moonshot 等 OpenAI 兼容接口）请用 [funai](https://github.com/farfarfun/funai)。
 
 ## 开发
 
